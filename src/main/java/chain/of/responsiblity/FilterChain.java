@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by AXT on 2017/10/25.
  */
-public class FilterChain {
+public class FilterChain implements StrFilter{
     private List<StrFilter> filters = new ArrayList<>();
 
     public void addFilter(StrFilter f) {
