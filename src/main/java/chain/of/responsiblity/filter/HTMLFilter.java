@@ -1,7 +1,7 @@
 package chain.of.responsiblity.filter;
 
 /**
- * Created by AXT on 2017/10/25.
+ * 实现对html的标签过滤
  */
 public class HTMLFilter implements StrFilter {
 

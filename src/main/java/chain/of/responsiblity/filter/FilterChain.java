@@ -1,4 +1,4 @@
-package chain.of.responsiblity;
+package chain.of.responsiblity.filter;
 
 import chain.of.responsiblity.filter.StrFilter;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by AXT on 2017/10/25.
+ * 过滤连
  */
 public class FilterChain implements StrFilter{
     private List<StrFilter> filters = new ArrayList<>();

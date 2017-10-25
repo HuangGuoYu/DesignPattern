@@ -1,8 +1,6 @@
-package chain.of.responsiblity;
+package chain.of.responsiblity.filter;
 
-import chain.of.responsiblity.filter.HTMLFilter;
-import chain.of.responsiblity.filter.SensitiveFilter;
-import chain.of.responsiblity.filter.StrFilter;
+import chain.of.responsiblity.filter.FilterChain;
 
 /**
  * Created by AXT on 2017/10/25.

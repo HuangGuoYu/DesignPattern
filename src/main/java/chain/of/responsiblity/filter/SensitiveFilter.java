@@ -1,7 +1,7 @@
 package chain.of.responsiblity.filter;
 
 /**
- * Created by AXT on 2017/10/25.
+ * 实现对敏感词汇的过滤
  */
 public class SensitiveFilter implements StrFilter {
     @Override

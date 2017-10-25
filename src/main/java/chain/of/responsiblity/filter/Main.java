@@ -1,7 +1,4 @@
-package chain.of.responsiblity;
-
-import chain.of.responsiblity.filter.HTMLFilter;
-import chain.of.responsiblity.filter.SensitiveFilter;
+package chain.of.responsiblity.filter;
 
 /**
  * chain of responsibility
