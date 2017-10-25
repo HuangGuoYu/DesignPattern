@@ -7,6 +7,7 @@ public class HTMLFilter implements StrFilter {
 
     @Override
     public String doFilter(String str) {
+//        System.out.println(str.replaceAll("[<>]","|"));
         return str.replaceAll("[<>]","|");
     }
 

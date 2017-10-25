@@ -9,7 +9,7 @@ import chain.of.responsiblity.filter.StrFilter;
  */
 public class MsgProcessor {
     private String msg;
-    private StrFilter[] filters = {new HTMLFilter(), new SensitiveFilter()};
+    private FilterChain filter;
 
 
     public String getMsg() {
@@ -20,11 +20,15 @@ public class MsgProcessor {
         this.msg = msg;
     }
 
+    public FilterChain getFilter() {
+        return filter;
+    }
+
+    public void setFilter(FilterChain filter) {
+        this.filter = filter;
+    }
+
     public String process() {
-        String r = msg;
-        for(StrFilter filter : filters) {
-        r = filter.doFilter(r);
-        }
-        return r;
+        return filter.doFilter(msg);
     }
 }
